@@ -1,0 +1,59 @@
+{
+    "heading":"Search results",
+    "items": [
+    {
+        "title": "Unit 1",
+        "thumb": "assets/img/01-1.jpg",
+        "url": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+        "timeleft": "2",
+        "watchers": "12",
+        "price": "123"
+    },
+    {
+        "title": "Unit 2",
+        "thumb": "assets/img/01-2.jpg",
+        "url": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+        "timeleft": "2",
+        "watchers": "3",
+        "price": "43"
+    },
+    {
+        "title": "Unit 3",
+        "thumb": "assets/img/01-3.jpg",
+        "url": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+        "timeleft": "2",
+        "watchers": "12",
+        "price": "39"
+    },
+    {
+        "title": "Unit 4",
+        "thumb": "assets/img/01-4.jpg",
+        "url": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+        "timeleft": "2",
+        "watchers": "12",
+        "price": "72"
+    },
+    {
+        "title": "Unit 5",
+        "thumb": "assets/img/01-5.jpg",
+        "url": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+        "timeleft": "2",
+        "watchers": "12",
+        "price": "84"
+    },
+    {
+        "title": "Unit 6",
+        "thumb": "assets/img/01-6.jpg",
+        "url": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+        "timeleft": "2",
+        "watchers": "12",
+        "price": "99"
+    }
+]
+}
