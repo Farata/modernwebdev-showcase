@@ -52,13 +52,13 @@
     showItems($("#featured-products-template"),"assets/data/featured-products.json", listContainer, appHeadingContainer);
 
     // action on Submit button click event
-    $('#get-data-btn').on("click", function() {
+    $('#get-data-btn').on("click", function(e) {
         //hide the featured product carousel with a sliding motion
        $('#featured-product-carousel').slideUp('slow', function(){
            showItems($("#search-results-template"),"assets/data/search-results.json", listContainer, appHeadingContainer);
        });
        //prevent button from submitting forms
-       return false;
+       e.preventDefault();
     });
 
 });
