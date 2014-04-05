@@ -1,0 +1,59 @@
+{
+  "heading" : "Featured products",
+  "items"   : [
+    {
+      "id"          : 1,
+      "title"       : "Item 1",
+      "thumb"       : "01.jpg",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+      "timeleft"    : 2,
+      "watchers"    : 12,
+      "price"       : 123
+    },
+    {
+      "id"          : 2,
+      "title"       : "Item 2",
+      "thumb"       : "02.jpg",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+      "timeleft"    : 2,
+      "watchers"    : 3,
+      "price"       : 43
+    },
+    {
+      "id"          : 3,
+      "title"       : "Item 3",
+      "thumb"       : "03.jpg",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+      "timeleft"    : 2,
+      "watchers"    : 12,
+      "price"       : 39
+    },
+    {
+      "id"          : 4,
+      "title"       : "Item 4",
+      "thumb"       : "04.jpg",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+      "timeleft"    : 2,
+      "watchers"    : 12,
+      "price"       : 72
+    },
+    {
+      "id"          : 5,
+      "title"       : "Item 5",
+      "thumb"       : "05.jpg",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+      "timeleft"    : 2,
+      "watchers"    : 12,
+      "price"       : 84
+    },
+    {
+      "id"          : 6,
+      "title"       : "Item 6",
+      "thumb"       : "06.jpg",
+      "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+      "timeleft"    : 2,
+      "watchers"    : 12,
+      "price"       : 99
+    }
+  ]
+}
