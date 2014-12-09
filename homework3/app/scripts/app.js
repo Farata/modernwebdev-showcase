@@ -37,8 +37,8 @@
          });
     }])
     .run(['$rootScope', function ($rootScope) {
-      $rootScope.$on('$routeChangeStart', function (event, next) {
-        $rootScope.pageTitle = next.$$route.title;
+      $rootScope.$on('$routeChangeSuccess', function (event, currentRoute) {
+        $rootScope.pageTitle = currentRoute.title;
       });
     }]);
 }());
