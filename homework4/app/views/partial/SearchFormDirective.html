@@ -1,0 +1,59 @@
+<form name="searchForm" novalidate>
+  <div class="col-xs-12 col-md-4">
+    <div class="row form-group">
+      <div class="col-xs-12 col-sm-6 col-md-12" ng-class="{ 'has-error': searchForm.title.$invalid }">
+        <label class="control-label">Product</label>
+        <input ng-model="ctrl.searchFormService.title" name="title" ng-minlength="3" type="text" class="form-control" placeholder="Product title">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-12">
+        <label class="control-label">&nbsp;</label>
+        <select ng-model="ctrl.searchFormService.category" class="form-control">
+          <option value="0" selected="selected">Not selected</option>
+          <option value="1">Category 1</option>
+          <option value="2">Category 2</option>
+          <option value="3">Category 3</option>
+          <option value="4">Category 4</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-8">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <auction-price-range low-price="ctrl.searchFormService.lowPrice"
+                             high-price="ctrl.searchFormService.highPrice">
+        </auction-price-range>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <div class="row">
+          <div class="col-xs-12">
+            <label class="control-label">Max Auction Close Day</label>
+
+            <div class="input-group">
+              <input ng-model="ctrl.searchFormService.closeDay" auction-datepicker class="form-control">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <label class="control-label">&nbsp;</label><br>
+
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-xs-8">
+                  <label class="control-label">Number of Bids</label>
+                </div>
+                <div class="col-xs-4">
+                  <input ng-model="ctrl.searchFormService.bids" type="number" class="form-control" min="0" value="3">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-4 col-md-offset-4">
+    <br>
+    <button ng-click="ctrl.find()" class="btn btn-default btn-block btn-primary">Find more</button>
+  </div>
+</form>

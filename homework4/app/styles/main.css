@@ -1,0 +1,8 @@
+/* Custom styles go here */
+body {
+  margin: 0;
+}
+
+.slider.slider-horizontal {
+  width: 100%;
+}

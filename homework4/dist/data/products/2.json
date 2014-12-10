@@ -1,0 +1,9 @@
+{
+  "id"          : 2,
+  "title"       : "Item 2",
+  "thumb"       : "02.jpg",
+  "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore adipiscing elit. Ut enim.",
+  "timeleft"    : 2,
+  "watchers"    : 3,
+  "price"       : 43
+}

@@ -1,0 +1,47 @@
+<div>
+  <div class="row well">
+    <auction-search-form></auction-search-form>
+  </div>
+
+  <h2 class="well well-sm" id="app-heading">
+      Search Results
+  </h2>
+
+  <ul class="list-unstyled" id="items-list">
+      <li class="col-md-4" ng-repeat="product in ctrl.products">
+          <div class="row">
+              <div class="col-xs-4">
+                  <a ng-href="#/product/{{ product.id }}">
+                    <img ng-src="images/{{ product.thumb }}" alt="" class="img-responsive">
+                  </a>
+              </div>
+              <div class="product-description-holder col-xs-8">
+                  <h2><a ng-href="#/product/{{ product.id }}">{{ product.title }}</a></h2>
+                  <p>{{ product.description }}</p>
+              </div>
+          </div>
+          <br/>
+          <div class="row">
+              <div class="col-xs-4 text-center">
+                  <span class="badge">{{ product.timeleft }} hour left</span><br/>
+                  <small>Today 15.00</small>
+              </div>
+              <div class="col-xs-4 text-center">
+              <span class="badge">
+                <span class="glyphicon glyphicon-eye-open"></span> {{ product.watchers }}
+              </span>
+                  <br/>
+                  <small>Watchers</small>
+              </div>
+              <div class="col-xs-4 text-center">
+              <span class="badge">
+                {{ product.price | currency }}
+              </span>
+                  <br/>
+                  <small>Current price</small>
+              </div>
+          </div>
+          <hr/>
+      </li>
+  </ul>
+</div>

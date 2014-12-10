@@ -1,0 +1,26 @@
+<div class="row form-group">
+  <div class="col-xs-12">
+    <label class="control-label">Current Price</label><br>
+
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="input-group">
+          <span class="input-group-addon">$</span>
+          <input type="number" class="form-control" ng-model="lowPrice"
+                 min="{{ minPrice }}" max="{{ highPrice }}">
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <div class="input-group">
+          <span class="input-group-addon">$</span>
+          <input type="number" class="form-control" ng-model="highPrice"
+                 min="{{ lowPrice }}" max="{{ maxPrice }}">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12">
+    <label class="control-label">&nbsp;</label><br>
+    <input type="text" class="form-control"/>
+  </div>
+</div>
